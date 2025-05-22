@@ -80,9 +80,28 @@ h1 {
 
 /* REVIEW SECTION */
 
-.review-carousel {
+.review-carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
     display: flex;
     gap: 7px;
+}
+
+.review-carousel-track {
+    display: flex;
+    gap: 7px;
+    animation: scroll 10s linear infinite;
+    will-change: transform;
+    
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .review-card {
@@ -97,6 +116,11 @@ h1 {
     padding: 20px 20px;
 }
 
+.review-card:hover .review-carousel-track {
+    animation-play-state: paused;
+    
+}
+
 .review-person-name {
     font-size: 26px;
     text-align: center;
@@ -104,7 +128,6 @@ h1 {
 }
 
 .review-stars {
-    font-size: 40px;
     text-align: center;
     color: #ffd900;
     border-radius: 4px;
@@ -131,6 +154,21 @@ h1 {
         font-size: 40px;
     }
     .hero-heading {
+        font-size: 20px;
+    }
+    .review-card {
+        width: 250px;
+        height: 220px;
+    }
+    .review-stars {
+        width: 170px;
+        height: 170px;
+        margin: 0px auto;
+    }
+    .review-description p{
+        font-size: 20px;
+    }
+    .review-person-name {
         font-size: 20px;
     }
 }
