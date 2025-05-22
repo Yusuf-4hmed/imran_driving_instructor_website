@@ -116,7 +116,7 @@ h1 {
     padding: 20px 20px;
 }
 
-.review-card:hover .review-carousel-track {
+.review-carousel-wrapper:hover .review-carousel-track {
     animation-play-state: paused;
     
 }
