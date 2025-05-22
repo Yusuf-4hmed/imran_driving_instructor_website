@@ -26,6 +26,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 100px;
+    font-size: 19px;
 }
 
 
@@ -60,9 +61,37 @@ h1 {
     font-size: 30px;
 }
 
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.hero-cta-button {
+    font-size: 24px;
+    color: white;
+    height: 60px;
+    width: 180px;
+    background-color: #2A83DA;
+    border: none;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+/* REVIEW SECTION */
+
+
+
+
+/* MEDIA QUERIES 770PX CUTOFF */
+
 @media (max-width: 770px) {
+    .inner-nav {
+        height: 45px;
+        font-size: 16px;
+    }
     h1 {
-        font-size: 55px;
+        font-size: 40px;
     }
     .hero-heading {
         font-size: 20px;
