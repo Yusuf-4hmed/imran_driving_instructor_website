@@ -80,7 +80,44 @@ h1 {
 
 /* REVIEW SECTION */
 
+.review-carousel {
+    display: flex;
+    gap: 7px;
+}
 
+.review-card {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 320px;
+    border: 2px solid #dcdcdc;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+.review-person-name {
+    font-size: 26px;
+    text-align: center;
+    margin: 0px;
+}
+
+.review-stars {
+    font-size: 40px;
+    text-align: center;
+    color: #ffd900;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.review-description p {
+    font-size: 27px;
+    text-align: center;
+    margin: 10px 0px auto 0px;
+    font-weight: 700;
+}
 
 
 /* MEDIA QUERIES 770PX CUTOFF */
