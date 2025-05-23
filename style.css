@@ -16,7 +16,8 @@ body {
 .inner-nav {
     position: fixed;
     color: white;
-    background-color: #2A83DA;
+    background-color: #2a82dae1;
+    backdrop-filter: blur(6px);
     padding: 10px;
     height: 60px;
     max-width: 85%;
@@ -27,6 +28,7 @@ body {
     align-items: center;
     gap: 100px;
     font-size: 19px;
+    border-top: 1px solid white;
 }
 
 
@@ -114,6 +116,7 @@ h1 {
     border: 2px solid #dcdcdc;
     border-radius: 20px;
     padding: 20px 20px;
+    /* cursor: pointer; */
 }
 
 .review-carousel-wrapper:hover .review-carousel-track {
@@ -142,6 +145,12 @@ h1 {
     font-weight: 700;
 }
 
+/* ABOUT SECTION */
+
+.about-header {
+    color: #2A83DA;
+    font-size: 50px;
+}
 
 /* MEDIA QUERIES 770PX CUTOFF */
 
