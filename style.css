@@ -195,8 +195,16 @@ h1 {
     h1 {
         font-size: 40px;
     }
+    .hero-section {
+        padding-top: 20px;
+    }
     .hero-heading {
         font-size: 20px;
+    }
+    .hero-cta-button {
+        height: 40px;
+        width: 140px;
+        font-size: 18px;
     }
     .review-card {
         width: 250px;
