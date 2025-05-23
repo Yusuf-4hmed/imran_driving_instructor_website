@@ -29,6 +29,7 @@ body {
     gap: 100px;
     font-size: 19px;
     border-top: 1px solid white;
+    z-index: 1;
 }
 
 
@@ -148,9 +149,40 @@ h1 {
 
 /* ABOUT SECTION */
 
+.about-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 70px 0px;
+}
+
+.about-main {
+    background-color: #efefef68;
+    max-width: 700px;
+    border-radius: 30px;
+    padding: 20px;
+    min-height: 300px;
+    flex: 1 1 700px;
+}
+
 .about-header {
     color: #2A83DA;
     font-size: 50px;
+    margin: 10px 0px;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+.about-img {
+    background-color: #efefef68;
+    border-radius: 30px;
+    height: 340px;
+    width: 340px;
+    flex: 1 1 340px;
+    max-width: 740px;   
 }
 
 /* MEDIA QUERIES 770PX CUTOFF */
