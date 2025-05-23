@@ -6,6 +6,15 @@ body {
     /* background-color: red; */
 }
 
+/* GLOBAL */
+
+.section-header {
+    color: #2A83DA;
+    font-size: 50px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
 /* NAVBAR */
 
 .main-nav {
@@ -88,6 +97,7 @@ h1 {
     width: 100%;
     display: flex;
     gap: 7px;
+    
 }
 
 .review-carousel-track {
@@ -95,6 +105,7 @@ h1 {
     gap: 7px;
     animation: scroll 10s linear infinite;
     will-change: transform;
+    
     
 }
 
@@ -118,6 +129,8 @@ h1 {
     border-radius: 20px;
     padding: 20px 20px;
     /* cursor: pointer; */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+    
 }
 
 .review-carousel-wrapper:hover .review-carousel-track {
@@ -183,6 +196,42 @@ h1 {
     width: 340px;
     flex: 1 1 340px;
     max-width: 740px;   
+}
+
+/* SERVICES */
+
+
+.services-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.service {
+    background-color: #2A83DA;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 40px;
+    color: white;
+}
+
+.service-header {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+}
+
+.service-text {
+    font-size: 17px;
+    text-align: center;
+}
+
+/* GALLERY */
+
+.gallery-section {
+    margin-top: 40px;
 }
 
 /* MEDIA QUERIES 770PX CUTOFF */
