@@ -245,25 +245,41 @@ h1 {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    
     align-items: center;
 }
 
 .gallery-media {
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
-    background-color: #efefef68;
-    max-width: 1300px;
-    border-radius: 30px;
-    justify-content: center;
+    max-height: 420px;
+    max-width: 1000px;
+    justify-content: start;
     padding: 20px;
+    overflow: hidden;
+    /* border: 1px solid black; */
+}
+
+.student-pass-container {
+    background-color: #efefef68;
+    width: 300px;
+    padding: 10px;
+    height: 400px;
+    transition: transform 0.3s ease;
+    /* transform: translateX(-300px); */
+}
+
+.student-pass-container p {
+    font-size: 20px;
+}
+
+.student-details {
+    text-align: center;
 }
 
 .img-1 {
     width: 300px;
-    height: 400px;
-    border-radius: 20px;
+    height: 300px;
+    border-radius: 5px;
     background-color: #dcdcdc;
     object-fit:cover;
 }
@@ -275,6 +291,16 @@ h1 {
     background-color: #dcdcdc;
     object-fit:cover;
 }
+
+.gallery-buttons button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: #ececec;
+    border-radius: 10px;
+}
+
+/* CONTACT SECTION */
 
 /* MEDIA QUERIES 770PX CUTOFF */
 
