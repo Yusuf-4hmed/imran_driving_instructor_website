@@ -2,8 +2,9 @@
     font-family: 'Inter';
 }
 
-body {
-    /* background-color: red; */
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 /* GLOBAL */
@@ -15,11 +16,16 @@ body {
     text-align: center;
 }
 
+section {
+    padding: 0px 10px;
+}
+
 /* NAVBAR */
 
 .main-nav {
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 
 .inner-nav {
@@ -37,7 +43,7 @@ body {
     align-items: center;
     gap: 100px;
     font-size: 19px;
-    border-top: 1px solid white;
+    /* border-top: 1px solid white; */
     z-index: 1;
 }
 
@@ -325,6 +331,14 @@ h1 {
     font-size: 20px;
 }
 
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    min-height: 50px;
+    background-color: #2A83DA;
+    z-index: 3;
+}
 
 /* MEDIA QUERIES 770PX CUTOFF */
 
