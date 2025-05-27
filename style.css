@@ -303,6 +303,29 @@ h1 {
 
 /* CONTACT SECTION */
 
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.contact-main {
+    background-color: #efefef68;
+    max-width: 700px;
+    border-radius: 30px;
+    padding: 20px;
+    min-height: 300px;
+    flex: 1 1 700px;
+}
+
+
+.contact-text {
+    font-size: 20px;
+}
+
+
 /* MEDIA QUERIES 770PX CUTOFF */
 
 @media (max-width: 770px) {
