@@ -451,11 +451,18 @@ footer p {
         padding: 20px 10px;
         justify-content: baseline;
         height: auto;
+        gap: 10px;
     }
     .service-text {
         display: none;
     }
     .service-small-text {
+        order: 2;
         display: inline;
+    }
+    .service svg {
+        width: 30px;
+        height: 30px;
+        order: 3;
     }
 }
