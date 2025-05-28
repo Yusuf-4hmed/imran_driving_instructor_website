@@ -340,6 +340,10 @@ footer {
     z-index: 3;
 }
 
+footer p {
+    margin: 0px;
+}
+
 /* MEDIA QUERIES 770PX CUTOFF */
 
 @media (max-width: 770px) {
