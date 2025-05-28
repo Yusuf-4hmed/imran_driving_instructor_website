@@ -56,6 +56,11 @@ section {
     padding: 10px 40px;
 }
 
+.inner-nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
 /* HERO-SECTION */
 
 .hero-section {
@@ -383,11 +388,22 @@ footer {
     min-height: 50px;
     background-color: #2A83DA;
     z-index: 3;
+    color: white;
 }
 
 footer p {
     margin: 0px;
 }
+
+.top-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    min-height: 100px;
+    flex-wrap: wrap;
+}
+
+
 
 /* MEDIA QUERIES 770PX CUTOFF */
 
