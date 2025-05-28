@@ -331,6 +331,51 @@ h1 {
     font-size: 20px;
 }
 
+.contact-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-whatsapp {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #2A83DA;
+    width: 120px;
+    padding: 15px;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.contact-email {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #2A83DA;
+    width: 80px;
+    padding: 15px;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.contact-call {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #2A83DA;
+    width: 80px;
+    padding: 15px;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+
+
 /* FOOTER */
 
 footer {
