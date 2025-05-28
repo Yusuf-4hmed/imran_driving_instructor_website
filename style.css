@@ -116,8 +116,11 @@ h1 {
     gap: 7px;
     animation: scroll 10s linear infinite;
     will-change: transform;
-    
-    
+}
+
+.review-carousel-track a {
+    text-decoration: none !important;
+    color: black;
 }
 
 @keyframes scroll {
