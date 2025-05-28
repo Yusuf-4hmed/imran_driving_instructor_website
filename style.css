@@ -43,7 +43,6 @@ section {
     align-items: center;
     gap: 100px;
     font-size: 19px;
-    /* border-top: 1px solid white; */
     z-index: 1;
 }
 
@@ -68,6 +67,44 @@ section {
     border: none;
     cursor: pointer;
 }
+
+.mobile-nav {
+    position: fixed;
+    color: white;
+    background-color: #2a82dae1;
+    backdrop-filter: blur(6px);
+    padding: 10px;
+    height: auto;
+    width: 200px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-size: 19px;
+    z-index: 1;
+    margin-top: 70px;
+    display: none;
+}
+
+.mobile-nav a {
+    text-decoration: none !important;
+}
+
+.mobile-nav ul {
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mobile-nav li {
+    color: white;
+}
+
+
 
 /* HERO-SECTION */
 
