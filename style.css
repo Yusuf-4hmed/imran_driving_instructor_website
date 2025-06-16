@@ -394,7 +394,7 @@ h1 {
 
 .question-container {
     background-color: #efefef68;
-    width: 1000px;
+    width: 80%;
     border-radius: 30px;
     padding: 20px;
     min-height: 400px;
@@ -455,6 +455,11 @@ footer p {
     }
     .about-stats.passed {
         order: 2;
+    }
+}
+@media (max-width: 1080px) {
+    .question-container details {
+        font-size: 19px;
     }
 }
 
