@@ -2,6 +2,10 @@
     font-family: 'Inter';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -430,6 +434,7 @@ footer {
     background-color: #2A83DA;
     z-index: 3;
     color: white;
+    padding: 20px 0px;
 }
 
 footer p {
@@ -439,9 +444,47 @@ footer p {
 .top-footer {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     min-height: 100px;
     flex-wrap: wrap;
+    padding: 0px 30px;
+}
+
+.logo-plus {
+    display: flex;
+    gap: 20px;
+}
+
+.details-plus {
+    font-size: 0.9rem;
+}
+
+.details-plus ul {
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.details-plus li {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.details-plus a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.logo-plus svg {
+    cursor: pointer;
+}
+
+.bottom-footer {
+    text-align: left;
+    font-size: 0.9rem;
+    padding: 0px 30px;
 }
 
 
