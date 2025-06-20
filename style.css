@@ -176,10 +176,10 @@ h1 {
     border-radius: 20px;
     /* position: absolute; */
     z-index: -1;
-    transform:  rotate(7deg);
+    transform:  rotate(5deg);
     left: 140px;
     bottom: 530px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
     overflow: hidden;
 }
 /* REVIEW SECTION */
@@ -531,10 +531,25 @@ footer p {
     .about-stats.passed {
         order: 2;
     }
+    .hero-image {
+        width: 200px;
+        height: 260px;
+    }
+    .hero-image-2 {
+        width: 200px;
+        height: 260px;
+    }
+    .hero-section {
+        gap: 20px;
+        padding: 0px 20px;
+    }
 }
 @media (max-width: 1080px) {
     .question-container details {
         font-size: 19px;
+    }
+    .hero-image, .hero-image-2 {
+        display: none;
     }
 }
 
