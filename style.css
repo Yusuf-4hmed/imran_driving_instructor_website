@@ -115,6 +115,12 @@ section {
 .hero-section {
     margin: 90px 0px;
     padding: 70px 0px 0px 0px;
+    height: 590px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
 }
 
 h1 {
@@ -150,6 +156,32 @@ h1 {
     cursor: pointer;
 }
 
+.hero-image {
+    /* background-color: #747474; */
+    width: 240px;
+    height: 300px;
+    border-radius: 20px;
+    /* position: absolute; */
+    z-index: -1;
+    transform:  rotate(-5deg);
+    left: 140px;
+    bottom: 530px;
+    /* margin-top: 100px; */
+    overflow: hidden;
+}
+.hero-image-2 {
+    /* background-color: #747474; */
+    width: 240px;
+    height: 300px;
+    border-radius: 20px;
+    /* position: absolute; */
+    z-index: -1;
+    transform:  rotate(7deg);
+    left: 140px;
+    bottom: 530px;
+    margin-bottom: 120px;
+    overflow: hidden;
+}
 /* REVIEW SECTION */
 
 .review-carousel-wrapper {
@@ -526,6 +558,7 @@ footer p {
     }
     .hero-section {
         padding-top: 20px;
+        height: 200px;
     }
     .hero-heading {
         font-size: 20px;
